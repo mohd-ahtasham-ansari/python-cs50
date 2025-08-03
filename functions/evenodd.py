@@ -11,8 +11,12 @@ def is_even(n):
     else:
         return False 
 """
-
+"""
 def is_even(n):
     return True if n%2==0 else False
+"""
+
+def is_even(n):
+    return n%2==0
 
 main()
